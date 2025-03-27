@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateOreExcavationChunkScanner", "CreateOreExcavationChunkScanner\CreateOreExcavationChunkScanner.csproj", "{29B19AA7-E766-468E-B3B0-6C7559E8EE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCreateOreExcavationChunkScanner", "LibCreateOreExcavationChunkScanner\LibCreateOreExcavationChunkScanner.csproj", "{4584C2C4-517D-4387-A046-0344D5B51B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibCreateOreExcavationChunkScanner.GPU", "LibCreateOreExcavationChunkScannerGPU\LibCreateOreExcavationChunkScanner.GPU.csproj", "{CBA737EA-5356-439F-89F5-AB239C3FC371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29B19AA7-E766-468E-B3B0-6C7559E8EE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B19AA7-E766-468E-B3B0-6C7559E8EE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B19AA7-E766-468E-B3B0-6C7559E8EE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B19AA7-E766-468E-B3B0-6C7559E8EE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4584C2C4-517D-4387-A046-0344D5B51B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4584C2C4-517D-4387-A046-0344D5B51B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4584C2C4-517D-4387-A046-0344D5B51B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4584C2C4-517D-4387-A046-0344D5B51B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA737EA-5356-439F-89F5-AB239C3FC371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA737EA-5356-439F-89F5-AB239C3FC371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA737EA-5356-439F-89F5-AB239C3FC371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA737EA-5356-439F-89F5-AB239C3FC371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAA99F4B-DCFB-4C83-BC96-5F9B0FBB3E2F}
+	EndGlobalSection
+EndGlobal
